@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Details</title>
+  <style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 150px;
+  background-color: rgb(217, 228, 241);
+}
+
+.book-details {
+  display: flex;
+  max-width: 800px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  
+  
+}
+
+.book-image img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.book-info {
+  margin-left: 40px;
+}
+
+.book-info h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.book-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.button-book{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color:#1c2a48;
+    color:white;
+    margin-top: 10px;
+}
+
+button:hover{
+background-color: green;
+}
+.about{}
+
+
+
+  </style>
+</head>
+<body>
+  <div class="book-details">
+    <div class="book-image">
+        <img src="IMAGES/Airman by Eoin Colfer..jpg" alt="">
+    </div>
+    <div class="book-info">
+      <h1>Airman</h1>
+      <p><strong>Author:</strong> Author Name</p>
+      <p><strong>Publish Year:</strong> 1943</p>
+      <p><strong>Number of Books:</strong> 5</p>
+      <h5>About the book</h5>
+      <p>t is the 1890s, and Conor and his family live on the sovereign Saltee Islands, off the Irish coast. 
+        Conor spends his days studying the science of flight with his tutor and exploring the castle with the king’s daughter, Princess Isabella. But the boy’s idyllic life changes forever the day he discovers a deadly conspiracy against the king.
+        </p>
+      <button class="button-book">Borrow</button>
+    </div>
+  </div>
+</body>
+</html>
